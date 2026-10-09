@@ -9,7 +9,7 @@ Play local audio, manage playlists, and download tracks directly from YouTube an
 
 ## Features
 
-- Play local music (MP3, FLAC, WAV, OGG, OPUS, M4A)
+- Play local music (35+ formats: MP3, FLAC, WAV, AIFF, OGG, OPUS, M4A, AAC, WMA, APE, WavPack, MPC, MOD/XM/S3M/IT, MIDI, DSF, MKA, …)
 - Download audio from YouTube, SoundCloud, etc. (via yt-dlp)
 - Modern TUI with three-pane layout, progress bars
 - Vim-inspired key bindings

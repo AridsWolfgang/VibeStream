@@ -11,7 +11,7 @@ struct vs_library {
   sqlite3 *db;
 };
 
-static const char *extensions[] = {".mp3", ".flac", ".wav", ".ogg", ".m4a", ".opus", ".aac", ".wma", NULL};
+static const char *extensions[] = {".mp3", ".mp2", ".mp1", ".mpa", ".flac", ".wav", ".wave", ".aiff", ".aif", ".aifc", ".ogg", ".oga", ".spx", ".opus", ".m4a", ".aac", ".adts", ".wma", ".ape", ".wv", ".tta", ".mpc", ".mpp", ".mp+", ".mid", ".midi", ".kar", ".rmi", ".mod", ".xm", ".s3m", ".it", ".mtm", ".umx", ".mo3", ".dsf", ".dff", ".mka", ".weba", NULL};
 
 static int has_audio_ext(const char *path) {
   const char *dot = strrchr(path, '.');
